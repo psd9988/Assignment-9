@@ -1,0 +1,335 @@
+body{
+  margin-bottom: 1000px;
+}
+
+header{
+  background-color: #c15355;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+.header2{
+  background-color: #c15355;
+  width: 100%;
+  height: 300px;
+  margin-top: 49px;
+  position: absolute;
+}
+
+.text{
+  display: inline-block;
+  padding: 10px;
+  margin: 2px;
+  color: white;
+}
+
+.text:hover{
+  cursor: pointer;
+}
+
+.text2{
+  display: inline-block;
+  padding: 10px;
+  color: white;
+}
+
+#box5{
+  margin-top: 100px;
+  margin-left: 250px;
+  font-size: 65px;
+  display: block;
+}
+
+#box6{
+  display: inline-block;
+  margin-left: 400px;
+}
+
+#box1{
+  font-size: 25px;
+  margin-left: 100px;
+}
+
+#box2{
+  margin-left: 475px;
+}
+
+.content{
+  display: inline-block;
+  position: absolute;
+  margin-top: 400px;
+  
+}
+
+#three{
+  margin-left: 750px;
+  height: 200px;
+  width: 200px;
+}
+
+#two{
+  margin-left: 450px;
+  height: 200px;
+  width: 200px;
+}
+
+#one{
+  margin-left: 150px;
+  height: 200px;
+  width: 200px;
+}
+
+h1{
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #c15355;
+  font-weight: bold;
+}
+
+p{
+  color: grey;
+  margin-bottom: 10px;
+}
+
+button{
+  padding: 5px 15px;
+  background-color: #c15355;
+  color: white;
+  border-color: #c15355;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.container{
+  margin-left: 0px;
+}
+
+.newContainer{
+  background-color: #c15355;
+  color: white;
+  height: 500px;
+  width: 100%;
+  position: absolute;
+  top: 700px;
+}
+
+.head1-container{
+  display: block;
+  margin-left: 470px;
+  margin-top: 50px;
+}
+
+.head1{
+  font-size: 30px;
+}
+
+.head2{
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.newcontent{
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 30px;
+  border: 1px solid white;
+  padding-left: 50px;
+  padding-top: 20px;
+  height: 200px;
+  width: 150px;
+}
+
+.ceo{
+  border-radius: 70%;
+  width: 100px;
+  height: 100px;
+  
+}
+
+.photo-text1{
+  font-size: 22px;
+  margin-top: 25px;
+  margin-left: 30px;
+}
+
+.photo-text2{
+  margin-left: 10px;
+  display: inline-block;
+
+}
+
+.logo1{
+  width: 100px;
+  display: inline-block;
+  position: absolute;
+  top: 330px;
+  height: 35px;
+  left: 240px; 
+  background-color: white;
+  border: white;
+  padding: 4px 10px;
+  border-radius: 5px;
+}
+
+.logo2{
+  width: 100px;
+  display: inline-block;
+  position: absolute;
+  top: 330px;
+  height: 35px;
+  left: 460px; 
+  background-color: white;
+  border: white;
+  padding: 4px 10px;
+  border-radius: 5px;
+}
+
+.logo3{
+  width: 100px;
+  display: inline-block;
+  position: absolute;
+  top: 330px;
+  height: 35px;
+  left: 670px; 
+  background-color: white;
+  border: white;
+  padding: 4px 10px;
+  border-radius: 5px;
+}
+
+.logo4{
+  width: 100px;
+  display: inline-block;
+  position: absolute;
+  top: 330px;
+  height: 35px;
+  left: 890px; 
+  background-color: white;
+  border: white;
+  padding: 4px 10px;
+  border-radius: 5px;
+}
+
+#id1{
+  margin-left: 150px;
+}
+
+.newtextheading{
+  color: #c15355;
+  margin-top: 1250px;
+  position: absolute;
+  margin-left: 500px;
+  font-size: 22px;
+}
+
+.newtext{
+  color: #c15355;
+  margin-top: 1280px;
+  position: absolute;
+  margin-left: 450px;
+  font-size: 15px;
+}
+
+.last-container{
+  color: #c15355;
+  margin: 1380px 150px 0px 150px;
+  position: absolute;
+  padding: 10px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item1{
+  margin-right: 50px;
+  
+}
+
+
+
+img[alt="amazon-image1"]{
+  width: 357px;
+  height: 192px;
+}
+
+img[alt="amazon-image2"]{
+  width: 357px;
+  height: 192px;
+}
+
+.top{
+  right:35px;
+  bottom: 25px;
+  position: fixed;
+  color: black;
+  z-index: 200;
+  border: solid #c15355 3px;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: beige;
+}
+
+
+
+footer{
+  position: absolute;
+  top: 1800px;
+  z-index: 100;
+  border-top: 2px solid rgb(216, 213, 213);
+  width: 100%;
+  padding-top: 10px;
+  
+}
+
+.social{
+  display: inline-block;
+  margin-left: 10px;
+}
+ 
+.fa-copyright{
+  display: inline-block;
+  color: grey;
+
+}
+
+.last-para{
+  display: inline-block;
+  margin-right: 700px;
+}
+
+.fa-facebook{
+  display: inline-block;
+  color: white;
+  background-color: #c15355;
+  border: 3px solid #c15355;
+  padding: 2px 4px;
+  border-radius: 50%;
+}
+
+.fa-linkedin{
+  display: inline-block;
+  margin-left: 10px;
+  color: white;
+  background-color: #c15355;
+  border: 3px solid #c15355;
+  padding: 0.5px 0.5px;
+  border-radius: 5%;
+}
+
+.fa-instagram{
+  display: inline-block;
+  margin-left: 10px;
+  color: #c15355;
+  height: inherit;
+}
+
+.fa-twitter{
+  display: inline-block;
+  margin-left: 10px;
+  color: #c15355;
+  
+}
